@@ -1,0 +1,73 @@
+.exposure-form-container {
+    padding: 2rem;
+}
+
+.exposure-form-container h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.form-message {
+    text-align: center;
+    margin-top: 1rem;
+    padding: 0.8rem;
+    background-color: rgba(0, 168, 232, 0.1);
+    border: 1px solid var(--primary-color);
+    border-radius: var(--border-radius-sm);
+}
+
+.form-message.error {
+    background-color: rgba(229, 56, 59, 0.1);
+    border-color: var(--danger-color);
+    color: var(--danger-color);
+}
+
+.variants-selection {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.variants-selection p {
+    margin-bottom: 1.5rem;
+    color: var(--text-secondary);
+}
+
+.variants-grid {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+.btn-variant {
+    flex-grow: 1;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: 2px solid;
+    background-color: transparent;
+    border-radius: var(--border-radius-sm);
+    transition: all 0.3s ease;
+    color: var(--text-color);
+}
+
+/* Specific button styles */
+.btn-variant.blue {
+    border-color: #00a8e8;
+}
+.btn-variant.blue:hover {
+    background-color: #00a8e8;
+    color: #fff;
+    transform: translateY(-3px);
+}
+
+.btn-variant.green {
+    border-color: #00e396;
+}
+.btn-variant.green:hover {
+    background-color: #00e396;
+    color: #121212;
+    transform: translateY(-3px);
+}
